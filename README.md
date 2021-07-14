@@ -17,7 +17,7 @@ The index.html in this example looks like this:
 
 The email list goes into a file named EmailList.json.
 
-The json file should like this:
+The json file should look like this:
 
 ```
 [
