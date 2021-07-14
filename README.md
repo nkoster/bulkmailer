@@ -15,6 +15,8 @@ The index.html content in this example, which is included, looks like this:
 <p><img style="width:1168px;height:687px" src="cid:dronetest.png"></p>
 ```
 
+The example image is also included.
+
 The email list goes into a file named EmailList.json.
 
 The json file should look like this:
@@ -47,6 +49,8 @@ Now, get your EmailList.json file in place, and adjust the message folder conten
 ```
 node index.js
 ```
+
+We use this bulk mailer "in production" to send advertising emails from drone-existince.com.
 
 WARNING: This thing is very simple but yet very effective. Use with very much care. Test carefuly before usage.
 
