@@ -1,13 +1,19 @@
 # bulkmailer
 Bulk Mailer, html with embedded images
 
-Message:
+An email message in html format lives like this:
 
 ```
 message/
 ├── images
 │   └── dronetest.png
 └── index.html
+```
+
+The index.html in this example looks like this:
+
+```
+<p><img style="width:1168px;height:687px" src="cid:dronetest.png"></p>
 ```
 
 The email list goes into a file named EmailList.json.
