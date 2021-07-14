@@ -39,4 +39,5 @@ node index.js
 ```
 
 WARNING: This thing is very simple but yet very effective. Use with very much care. Test carefuly before usage.
+
 WARNING: To make sure you'll make it through spam filters, you _have to_ run this from a server that sends email from the same domain that is used in the "from" field.
