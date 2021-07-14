@@ -1,4 +1,4 @@
-# bulkmailer
+### bulkmailer
 Bulk Mailer, html with embedded images
 
 An email message in html format lives like this:
