@@ -1,7 +1,7 @@
 const nodemailer = require('nodemailer')
 const fs = require('fs')
 
-const EmailList = require('./EmailList')
+const EmailList = require('./EmailList.json')
 
 const html = fs.readFileSync('./message/index.html', 'utf8')
 
