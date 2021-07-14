@@ -9,7 +9,7 @@ message/
 └── index.html
 ```
 
-The index.html in this example looks like this:
+The index.html in this example, which is included, looks like this:
 
 ```
 <p><img style="width:1168px;height:687px" src="cid:dronetest.png"></p>
