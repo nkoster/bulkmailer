@@ -40,6 +40,8 @@ cd bulkmailer
 npm i
 ```
 
+Now, get your EmailList.json file in place, and adjust the message folder content to your needs.
+
 ### Run
 
 ```
