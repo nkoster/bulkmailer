@@ -1,5 +1,5 @@
 ### bulkmailer
-Send html with embedded images.
+Send html email with embedded images. Based on [nodemailer](https://nodemailer.com/).
 
 An email message in html format lives like this:
 ```
