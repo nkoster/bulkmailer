@@ -32,7 +32,7 @@ The json file should look like this:
 ]
 ```
 
-Install:
+### Install
 
 ```
 git clone https://github.com/nkoster/bulkmailer
@@ -40,7 +40,7 @@ cd bulkmailer
 npm i
 ```
 
-Run the bulk mailer:
+### Run
 
 ```
 node index.js
