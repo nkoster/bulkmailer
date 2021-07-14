@@ -32,6 +32,14 @@ The json file should look like this:
 ]
 ```
 
+Install:
+
+```
+git clone https://github.com/nkoster/bulkmailer
+cd bulkmailer
+npm i
+```
+
 Run the bulk mailer:
 
 ```
