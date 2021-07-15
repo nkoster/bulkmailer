@@ -40,9 +40,7 @@ and their src value contains the relative path, like "images/bukhanka.png" in th
 
 ### Email List
 
-The email list goes into a file named "EmailList.json".
-
-The json file should be structured like this:
+The email list goes into a file named "EmailList.json". The json file should be structured like this:
 
 ```javascript
 [
