@@ -5,7 +5,7 @@
 Send html email with embedded images. Based on [nodemailer](https://nodemailer.com/), which is taking care of
 building a message, with images embedded, by formatting the mail with content IDs and attachments.
 
-> You can read more about this way (and other ways) of sending out email with images here: https://mailtrap.io/blog/embedding-images-in-html-email-have-the-rules-changed/
+You can read more about this way (and other ways) of sending out email with images here: https://mailtrap.io/blog/embedding-images-in-html-email-have-the-rules-changed/
 
 An email message in html format with embedded images will open without warnings about blocked remote content in most email clients.
 That's a big advantage because it improves a recipients user experience and trust.
