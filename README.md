@@ -8,7 +8,7 @@ You can read more about this way (and other ways) of sending out email with imag
 An email message in html format with embedded images will open without warnings about blocked images in most email clients.
 That's an advantage because it improves a recipients user experience.
 
-An email message in html format lives inside a directory structure like this:
+The message in html format lives inside a directory structure like this:
 
 ```
 message/
