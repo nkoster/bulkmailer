@@ -61,4 +61,9 @@ I use this bulk mailer "in production" to send advertising emails for [drone-exi
 
 WARNING: This thing is very simple but yet very effective. Use with very much care. Test carefuly before usage.
 
-WARNING: To make sure you'll make it through spam filters, you _have to_ run this from a server that sends email from the same domain that is used in the "from" field, or a server that's allowed to send email for the domain you're using in the "from" field ([SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)). 
+WARNING: To make sure you'll make it through spam filters, you _have to_ run this from a server that sends email from the same domain that is used in the "from" field, or a server that's allowed to send email for the domain you're using in the "from" field ([SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)).
+
+### More Help
+
+In case you need help sending out a bunch of nicely formatted bulk email for some campaign, let me know. We'll work something out.
+
