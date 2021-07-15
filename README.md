@@ -12,10 +12,10 @@ message/
 The index.html content in this example, which is included, looks like this:
 
 ```
-<p><img style="width:1168px;height:687px" src="cid:dronetest.png"></p>
+<p><img style="width:1168px;height:687px" src="images/dronetest.png"></p>
 ```
 
-The example image is also included.
+Any image iside the html will get replaced automatically by their respective content IDs.
 
 The email list goes into a file named EmailList.json.
 
