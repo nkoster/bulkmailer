@@ -17,10 +17,10 @@ That's a big advantage because it improves a recipients user experience and trus
 The message in html format lives inside a directory structure like this:
 
 ```
-message/
-├── images
-│   └── bukhanka.png
-└── index.html
+./message/
+  ├── images
+  │   └── bukhanka.png
+  └── index.html
 ```
 
 An image tag inside index.html, as in the included example, looks like this:
