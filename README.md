@@ -57,7 +57,7 @@ Next...
 
 * Make sure your EmailList.json file is in place
 * Adjust the message folder content to your needs
-* Adjust the "from", "subject" and "text" fields inside index.js
+* Adjust the "from", "subject" and "text" fields inside index.js to your needs
 
 ### Run
 
