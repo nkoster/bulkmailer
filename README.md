@@ -39,7 +39,7 @@ and their src value contains the relative image path, like "images/bukhanka.png"
 
 The email list goes into a file named "EmailList.json".
 
-The json file should look like this:
+The json file should be structured like this:
 
 ```javascript
 [
