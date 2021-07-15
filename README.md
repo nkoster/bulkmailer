@@ -70,7 +70,7 @@ Next...
 
 * Make sure your ./EmailList.json file is in place
 * Adjust the ./message/ folder content to your needs (index.html and images)
-* Adjust the "from", "subject" and "text" fields inside bulkmailer.js to your needs
+* Adjust the "from", "subject" and "text" fields inside ./bulkmailer.js to your needs
 
 ### Run
 
