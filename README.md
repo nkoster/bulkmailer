@@ -46,7 +46,8 @@ cd bulkmailer
 npm i
 ```
 
-Now, get your EmailList.json file in place, and adjust the message folder content to your needs.
+* Now, get your EmailList.json file in place, and adjust the message folder content to your needs
+* Adjust the "from", "to" and "subject" fields inside index.js
 
 ### Run
 
