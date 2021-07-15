@@ -1,4 +1,4 @@
-### bulkmailer
+## bulkmailer
 Send html email with embedded images. Based on [nodemailer](https://nodemailer.com/).
 
 An email message in html format lives inside a directory structure like this:
@@ -15,11 +15,13 @@ The index.html content in this example, which is included, looks like this:
 <p><img style="width:1168px;height:687px" src="images/dronetest.png"></p>
 ```
 
-Any image inside the html will get replaced automatically by its respective attachment content ID.
+Any image src attribute value inside the html will get replaced automatically by its respective attachment content ID.
 This means you can freely create an index.html with images, aslong as the images live in the images directory,
-and their src attribute is formatted like src="images/image".
+and their src attribute is the relative image path, something like "images/dronetest.png".
 
-The email list goes into a file named EmailList.json.
+### Email List
+
+The email list goes into a file named "EmailList.json".
 
 The json file should look like this:
 
