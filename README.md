@@ -45,6 +45,7 @@ git clone https://github.com/nkoster/bulkmailer
 cd bulkmailer
 npm i
 ```
+Next...
 
 * Make sure your EmailList.json file is in place
 * Adjust the message folder content to your needs
