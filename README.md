@@ -62,7 +62,7 @@ Next...
 ### Run
 
 ```
-node index.js
+node bulkmailer.js
 ```
 
 I use this bulk mailer "in production" to send advertising emails for [drone-existence.com](https://drone-existence.com).
