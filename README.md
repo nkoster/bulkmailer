@@ -9,19 +9,23 @@ An email message in html format lives inside a directory structure like this:
 ```
 message/
 ├── images
-│   └── dronetest.png
+│   └── bukhanka.png
 └── index.html
 ```
 
-The index.html content in this example, which is included, looks like this:
+An image tag inside index.html in the included example, looks like this:
 
 ```
-<p><img style="width:1168px;height:687px" src="images/dronetest.png"></p>
+<body>
+  <div>
+    <img src="images/bukhanka.png">
+  </div>
+</body>
 ```
 
 Any image src attribute value inside the html will get replaced automatically by its respective attachment content ID.
 This means you can freely create an index.html with images, aslong as the images live in the images directory,
-and their src attribute is the relative image path, something like "images/dronetest.png".
+and their src attribute is the relative image path, something like "images/bukhanka.png".
 
 ### Email List
 
