@@ -34,6 +34,7 @@ An image tag inside index.html, as in the included example, looks like this:
 ```
 
 Bulkmailer will automatically replace any image src value inside the html by its respective attachment content ID.
+
 This means you can freely create an index.html with images, aslong as the images live in the images directory,
 and their src value contains the relative path, like "images/bukhanka.png" in the example.
 
