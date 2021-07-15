@@ -54,7 +54,7 @@ The json file should look like this:
 
 ### Install
 
-I am assuming that you're on a linux host with a local mailer installed.
+I am assuming that you're on a linux host with a local mailer like postfix installed.
 
 ```
 git clone https://github.com/nkoster/bulkmailer
