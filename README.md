@@ -1,7 +1,7 @@
 ### bulkmailer
 Send html email with embedded images. Based on [nodemailer](https://nodemailer.com/).
 
-An email message in html format lives like this:
+An email message in html format lives inside a directory structure like this:
 ```
 message/
 ├── images
