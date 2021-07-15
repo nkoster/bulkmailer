@@ -58,7 +58,7 @@ The json file should look like this:
 
 I am assuming that you're on a linux host with a local mailer like postfix installed.
 Bulkmailer is configured to deliver mail at localhost port 25.
-Consult the [nodemailer documentation](https://nodemailer.com/smtp/) if you want to change that to something else.
+Consult the nodemailer [documentation](https://nodemailer.com/smtp/) if you want to change that to something else.
 
 ```
 git clone https://github.com/nkoster/bulkmailer
