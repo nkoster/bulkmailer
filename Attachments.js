@@ -1,12 +1,12 @@
-const testFolder = './message/images/'
+const imgDir = './message/images/'
 const fs = require('fs')
 
 const imageList = []
 
-fs.readdirSync(testFolder).forEach(file => {
+fs.readdirSync(imgDir).forEach(file => {
   imageList.push({
       filename: file,
-      path: `./message/images/${file}`,
+      path: `${imgDir}${file}`,
       cid: file
   })
 })
