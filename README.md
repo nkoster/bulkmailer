@@ -77,5 +77,6 @@ WARNING: To make sure you'll make it through spam filters, you _have to_ run thi
 
 ### More Help
 
-In case you need help sending out a bunch of nicely formatted bulk email for some campaign, let me know. We'll work something out.
+In case you need help sending out a bunch of nicely formatted bulk email for some campaign, let me know.
+Perhaps we can work something out.
 
