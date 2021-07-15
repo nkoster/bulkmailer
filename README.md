@@ -1,7 +1,7 @@
 ## bulkmailer
 
 Send html email with embedded images. Based on [nodemailer](https://nodemailer.com/), which is taking care for
-building an message, with images embedded, by formatting the mail with content IDs and attachments.
+building a message, with images embedded, by formatting the mail with content IDs and attachments.
 
 An email message in html format with embedded images will open without warnings about blocked images in most email clients.
 That's an advantage because it improves a recipients experience.
