@@ -13,7 +13,7 @@ message/
 └── index.html
 ```
 
-An image tag inside index.html in the included example, looks like this:
+An image tag inside index.html in the included example looks like this:
 
 ```
 <body>
