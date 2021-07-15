@@ -2,8 +2,10 @@
 
 <img src="https://raw.githubusercontent.com/nkoster/bulkmailer/master/message/images/bukhanka.png" alt="UAZ Bukhanka" width="200"/>
 
-Send html email with embedded images. Based on [nodemailer](https://nodemailer.com/), which is taking care of
-building a message, with images embedded, by formatting the mail with content IDs and attachments.
+Send html email with embedded images.
+
+Based on [nodemailer](https://nodemailer.com/), which is taking care of
+building a message with the images embedded, by formatting the message with content IDs and attachments.
 
 You can read more about this way (and other ways) of sending out email with images here: https://mailtrap.io/blog/embedding-images-in-html-email-have-the-rules-changed/
 
