@@ -54,7 +54,7 @@ Now, get your EmailList.json file in place, and adjust the message folder conten
 node index.js
 ```
 
-We use this bulk mailer "in production" to send advertising emails from drone-existince.com.
+I use this bulk mailer "in production" to send advertising emails from drone-existince.com.
 
 WARNING: This thing is very simple but yet very effective. Use with very much care. Test carefuly before usage.
 
