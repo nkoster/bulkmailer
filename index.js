@@ -21,8 +21,8 @@ EmailList.forEach(({name, email}) => {
     let message = {
         from: 'noreply@drone-existence.com',
         to: `${name}<${email}>`,
-        subject: 'Drone Drama',
-        text: 'This is a Test',
+        subject: 'UAZ Bukhanka',
+        text: 'UAZ Bukhanka',
         attachments,
         html
     }
