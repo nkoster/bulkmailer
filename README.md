@@ -1,9 +1,5 @@
 ## bulkmailer
-
-![UAZ Bukhanka](https://raw.githubusercontent.com/nkoster/bulkmailer/master/message/images/bukhanka.png)
-
 <img src="https://raw.githubusercontent.com/nkoster/bulkmailer/master/message/images/bukhanka.png" alt="UAZ Bukhanka" width="200"/>
-
 Send html email with embedded images. Based on [nodemailer](https://nodemailer.com/), which is taking care for
 building a message, with images embedded, by formatting the mail with content IDs and attachments.
 
