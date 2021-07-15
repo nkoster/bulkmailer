@@ -15,7 +15,9 @@ The index.html content in this example, which is included, looks like this:
 <p><img style="width:1168px;height:687px" src="images/dronetest.png"></p>
 ```
 
-Any image iside the html will get replaced automatically by their respective content IDs.
+Any image inside the html will get replaced automatically by its respective attachment content ID.
+This means you can freely create an index.html with images, aslong as the images live in the images directory,
+and their src attribute is formatted like src="images/image".
 
 The email list goes into a file named EmailList.json.
 
