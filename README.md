@@ -12,6 +12,8 @@ You can read more about this way (and other ways) of sending out email with imag
 An email message in html format with embedded images will open without warnings about blocked remote content in most email clients.
 That's a big advantage because it improves a recipients user experience and trust.
 
+### Message Layout
+
 The message in html format lives inside a directory structure like this:
 
 ```
