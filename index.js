@@ -3,9 +3,11 @@ const fs = require('fs')
 
 const EmailList = require('./EmailList.json')
 
-const html = fs.readFileSync('./message/index.html', 'utf8')
+let html = fs.readFileSync('./message/index.html', 'utf8')
 
 const attachments = require('./Attachments')
+
+attachments.forEach(img => html = html.replace(`images/${img.filename}`, `cid:${img.filename}`))
 
 const transporter = nodemailer.createTransport({
     port: 25,
