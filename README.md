@@ -86,3 +86,4 @@ WARNING: To make sure you'll make it through spam filters, you _have to_ run thi
 In case you need more help or advice for sending out a bunch of nicely formatted bulk email, let me know.
 Perhaps we can work something out.
 
+If you find errors, please ket me know. Or make a pull request for your fix. Thanks!
