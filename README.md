@@ -54,6 +54,8 @@ The json file should look like this:
 
 ### Install
 
+I am assuming that you're on a linux host with a local mailer installed.
+
 ```
 git clone https://github.com/nkoster/bulkmailer
 cd bulkmailer
