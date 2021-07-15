@@ -21,7 +21,7 @@ message/
 
 An image tag inside index.html, as in the included example, looks like this:
 
-```
+```html
 <body>
   <div>
     <img src="images/bukhanka.png">
@@ -39,7 +39,7 @@ The email list goes into a file named "EmailList.json".
 
 The json file should look like this:
 
-```
+```javascript
 [
     {
         "name": "John",
