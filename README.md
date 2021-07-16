@@ -44,14 +44,8 @@ The email list goes into a file named "./EmailList.json". The json file should b
 
 ```javascript
 [
-    {
-        "name": "John",
-        "email": "john@gmail.com"
-    },
-    {
-        "name": "Jane",
-        "email": "jane@outlook.com"
-    }
+    { "name": "John", "email": "john@gmail.com" },
+    { "name": "Jane", "email": "jane@outlook.com" }
 ]
 ```
 
