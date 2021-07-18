@@ -53,7 +53,7 @@ The email list goes into a file named "**./EmailList.json**". The json file shou
 
 I am assuming that you're on a linux host, installed with nodejs and a local mailer like [postfix](https://mailtrap.io/blog/postfix-sendmail-exim/).
 
-Bulkmailer will be configured to deliver mail at localhost port 25 when you use a configuration like in the example below.
+Bulkmailer will be configured to deliver mail at localhost port 25 when you configure it like in the configuration example that's mentioned below.
 Consult the nodemailer [documentation](https://nodemailer.com/smtp/) if you want to change that to something else.
 
 ```
