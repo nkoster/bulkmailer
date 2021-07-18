@@ -63,7 +63,7 @@ npm i
 
 ### Configuration
 
-Create a file named "**./config.json**" and make it look like this:
+Create a file named "**./Config.json**" and make it look like this:
 
 ```json
 {
