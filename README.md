@@ -38,19 +38,6 @@ Bulkmailer will automatically replace any image **src** value inside the html by
 This means you can freely create an index.html with images, aslong as the images live in the images directory,
 and their src value contains the relative path, like **images/bukhanka.png** in the example.
 
-### Email List
-
-The email list goes into a file named **./EmailList.json**
-
-The json file should be structured like this:
-
-```javascript
-[
-    { "name": "John", "email": "john@gmail.com" },
-    { "name": "Jane", "email": "jane@outlook.com" }
-]
-```
-
 ### Install
 
 I am assuming that you're on a linux host, installed with nodejs and a local mailer like [postfix](https://mailtrap.io/blog/postfix-sendmail-exim/).
@@ -62,6 +49,19 @@ Consult the nodemailer [documentation](https://nodemailer.com/smtp/) if you want
 git clone https://github.com/nkoster/bulkmailer
 cd bulkmailer
 npm i
+```
+
+### Email List
+
+The email list goes into a file named **./EmailList.json**
+
+The json file should be structured like this:
+
+```javascript
+[
+    { "name": "John", "email": "john@gmail.com" },
+    { "name": "Jane", "email": "jane@outlook.com" }
+]
 ```
 
 ### Configuration
