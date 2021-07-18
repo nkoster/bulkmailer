@@ -65,7 +65,7 @@ npm i
 
 Create a file named "./config.json" and make it look like this:
 
-```
+```json
 {
     "configTransporter": {
         "port": 25,
