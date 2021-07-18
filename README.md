@@ -99,9 +99,9 @@ node bulkmailer.js
 
 I use this bulk mailer "in production" to send advertising emails for [drone-existence.com](https://drone-existence.com).
 
-WARNING: This thing is very simple but yet very effective. Use with caution: test very carefuly before applying to a huge email list.
+WARNING: test carefuly with a small email list before applying to a huge list.
 
-WARNING: To make sure you'll make it through spam filters, you _have to_ run this from a server that sends email from the same domain that is used in the "from" field (inside bulkmailer.js), or a server that's allowed to send email for the domain you're using in the "from" field ([SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)).
+WARNING: to make sure you'll make it through spam filters, you _have to_ run this from a server that sends email from the same domain that is used in the "from" field (inside bulkmailer.js), or a server that's allowed to send email for the domain you're using in the "from" field ([SPF](https://en.wikipedia.org/wiki/Sender_Policy_Framework)).
 
 ### More Help
 
