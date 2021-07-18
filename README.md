@@ -1,4 +1,4 @@
-# bulkmailer
+# Simple Bulk Mailer
 
 <img src="https://raw.githubusercontent.com/nkoster/bulkmailer/master/message/images/bukhanka.png" alt="UAZ Bukhanka" width="200"/>
 
