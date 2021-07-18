@@ -84,7 +84,7 @@ Create a file named "**./config.json**" and make it look like this:
 
 Next, make sure your **./EmailList.json** file is in place.
 
-Last but not least, adjust the ./message/ folder content to your needs (index.html and images)
+Last but not least, adjust the ./message/ folder content to your needs. (index.html and images)
 
 ### Run
 
