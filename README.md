@@ -60,11 +60,30 @@ git clone https://github.com/nkoster/bulkmailer
 cd bulkmailer
 npm i
 ```
-Next...
 
-* Make sure your ./EmailList.json file is in place
-* Adjust the ./message/ folder content to your needs (index.html and images)
-* Adjust the "from", "subject" and "text" fields inside ./bulkmailer.js to your needs
+### Configuration
+
+Create a file named "./config.json" and make it look like this:
+
+```
+{
+    "configTransporter": {
+        "port": 25,
+        "host": "localhost",
+        "tls": {
+          "rejectUnauthorized": false
+        }
+    },
+    "configHeader": {
+        "from": "contact@example.org",
+        "subject": "UAZ Bukhanka",
+        "text": "UAZ Bukhanka"
+    }
+}
+```
+
+* Next, make sure your ./EmailList.json file is in place.
+* Last but not least, adjust the ./message/ folder content to your needs (index.html and images)
 
 ### Run
 
