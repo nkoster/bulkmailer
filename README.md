@@ -64,7 +64,7 @@ The json file should be structured like this:
 ]
 ```
 
-Of course you can have more values in the json file, but not less.
+Of course you can have more properties in an object, but not less.
 
 ### Configuration
 
