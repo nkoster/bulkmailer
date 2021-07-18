@@ -9,10 +9,10 @@ const attachments = require('./Attachments')
 attachments.forEach(img => 
     html = html.replace(`images/${img.filename}`, `cid:${img.filename}`))
 
-const { configTransporter } = require('./config.json')
+const { configTransporter } = require('./Config.json')
 const transporter = nodemailer.createTransport(configTransporter)
 
-const { from, subject, text } = require('./config.json').configHeader
+const { from, subject, text } = require('./Config.json').configHeader
 EmailList.forEach(({name, email}) => {
     let message = {
         from, to: `${name}<${email}>`,
