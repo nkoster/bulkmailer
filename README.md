@@ -64,6 +64,8 @@ The json file should be structured like this:
 ]
 ```
 
+You can have more values in the json file, but not less.
+
 ### Configuration
 
 Create a file named "**./Config.json**" and make it look like this:
