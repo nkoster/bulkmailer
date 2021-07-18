@@ -40,7 +40,7 @@ and their src value contains the relative path, like "images/bukhanka.png" in th
 
 ### Email List
 
-The email list goes into a file named "./EmailList.json". The json file should be structured like this:
+The email list goes into a file named "**./EmailList.json**". The json file should be structured like this:
 
 ```javascript
 [
@@ -63,7 +63,7 @@ npm i
 
 ### Configuration
 
-Create a file named "./config.json" and make it look like this:
+Create a file named "**./config.json**" and make it look like this:
 
 ```json
 {
@@ -82,8 +82,9 @@ Create a file named "./config.json" and make it look like this:
 }
 ```
 
-* Next, make sure your ./EmailList.json file is in place.
-* Last but not least, adjust the ./message/ folder content to your needs (index.html and images)
+Next, make sure your **./EmailList.json** file is in place.
+
+Last but not least, adjust the ./message/ folder content to your needs (index.html and images)
 
 ### Run
 
