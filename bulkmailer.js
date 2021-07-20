@@ -14,7 +14,7 @@ const transporter = nodemailer.createTransport(configTransporter)
 
 const { from, subject, text } = require('./Config.json').configHeader
 EmailList.forEach(({name, email}) => {
-    let message = {
+    const message = {
         from, to: `${name}<${email}>`,
         subject, text, attachments, html
     }
