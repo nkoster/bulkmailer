@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/nkoster/bulkmailer/master/message/images/bukhanka.png" alt="UAZ Bukhanka" width="200"/>
 
-Send a message in html format with embedded images to a list of recipients.
+Send a message in html format with embedded images to a list of email recipients.
 
 Based on [nodemailer](https://nodemailer.com/), which is taking care of
 building a message with the images embedded, by formatting the message with content IDs and attachments.
