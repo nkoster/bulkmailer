@@ -5,7 +5,7 @@
 Send a message in html format with embedded images to a list of email recipients.
 
 Based on [nodemailer](https://nodemailer.com/), which is taking care of
-building a message with the images embedded, by formatting the message with content IDs and attachments.
+building the message. Bulkmailer will embed the images inside the html as base64 encoded strings.
 
 You can read more about this way (and other ways) of sending out email with images here: https://mailtrap.io/blog/embedding-images-in-html-email-have-the-rules-changed/
 
@@ -33,10 +33,10 @@ An image tag inside index.html, as in the included example, looks like this:
 </body>
 ```
 
-Bulkmailer will automatically replace any image **src** value inside the html by its respective attachment content ID.
+Bulkmailer will automatically replace any image inside the html by its respective base64 string.
 
 This means you can freely create an index.html with images, aslong as the images live in the images directory,
-and their src value contains the relative path, like **images/bukhanka.png** in the example.
+and their src value (and/or background url value) contains the relative path, like **images/bukhanka.png** in the example.
 
 ### Install
 
