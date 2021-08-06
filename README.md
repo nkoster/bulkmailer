@@ -33,7 +33,7 @@ An image tag inside index.html, as in the included example, looks like this:
 </body>
 ```
 
-Bulkmailer will automatically replace any image inside the html by its respective base64 string.
+Bulkmailer will automatically replace any image inside the html by its respective base64 image string.
 
 This means you can freely create an index.html with images, aslong as the images live in the images directory,
 and their src value (and/or background url value) contains the relative path, like **images/bukhanka.png** in the example.
