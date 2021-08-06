@@ -7,7 +7,7 @@ let html = fs.readFileSync('./message/index.html', 'utf8')
 
 const attachments = require('./Attachments')
 attachments.forEach(img => 
-    html = html.replace(`images/${img.filename}`, `cid:${img.filename}`))
+    html = html.replace(`images/${img.filename}`, `data:image/png;base64,${img.base64}`))
 
 const { configTransporter } = require('./Config.json')
 const transporter = nodemailer.createTransport(configTransporter)
@@ -16,7 +16,7 @@ const { from, subject, text } = require('./Config.json').configHeader
 EmailList.forEach(({name, email}) => {
     const message = {
         from, to: `${name}<${email}>`,
-        subject, text, attachments, html
+        subject, text, html
     }
     transporter.sendMail(message, (error, info) => {
         if (error) {
