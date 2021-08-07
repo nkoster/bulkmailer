@@ -11,7 +11,6 @@ fs.readdirSync(imgDir).forEach(file => {
 
   imageList.push({
       filename: file,
-      path: `${imgDir}${file}`,
       base64
   })
 })
