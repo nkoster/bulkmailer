@@ -18,10 +18,8 @@ EmailList.forEach(({name, email}) => {
         from, to: `${name}<${email}>`,
         subject, text, html
     }
-    transporter.sendMail(message, (error, info) => {
-        if (error) {
-            return console.log(error)
-        }
+    transporter.sendMail(message, (err, info) => {
+        if (err) return console.log(email, err.message)
         console.log(name, email, info.messageId)
     })
 })
