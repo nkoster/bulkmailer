@@ -13,6 +13,7 @@ fs.readdirSync(imgDir).forEach(file => {
       filename: file,
       base64
   })
+
 })
 
 module.exports = imageList
