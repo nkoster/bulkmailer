@@ -3,11 +3,11 @@ const fs = require('fs')
 
 const imageList = []
 
-const getBase64 = image =>
-  Buffer.from(fs.readFileSync(image)).toString('base64')
-
 fs.readdirSync(imgDir).forEach(file => {
-  const base64 = getBase64(`${imgDir}${file}`)
+
+  const base64 = Buffer
+    .from(fs.readFileSync(`${imgDir}${file}`))
+    .toString('base64')
 
   imageList.push({
       filename: file,
